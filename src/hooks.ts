@@ -1,20 +1,7 @@
-これは自作の便利なReact Hooksをメモするためのプロジェクトです
-
-## ビルド
-
-```
-$ npm start
-```
-
-
-## hooks
-
-### usePrevious
-
-レンダリング時に、指定した値が変更される前の値を取得することができる
-cloneDeepを使って、deepなオブジェクトの深い部分が変更されても前の値を保持できるようにしている
-
-```.ts
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useRef, useEffect, useState, CSSProperties } from 'react'
+import { cloneDeep } from 'lodash'
+import interact from 'interactjs'
 
 interface UsePreviousOption {
   deepCopy?: boolean
@@ -43,11 +30,7 @@ export function usePrevious<T>(
 
   return (ref.current as unknown) as T
 }
-```
 
-### useWatch
-
-```.ts
 /**
  * マウントのときに発火しないuseEffectを提供します
  * アンマウント時に実行する処理を指定することもできます
@@ -72,13 +55,7 @@ export function useWatch(
     return onDestroy
   }, [])
 }
-```
 
-### useInteractJS
-
-InteractJSを使ってコンポーネントを動かすためのフック
-
-```.ts
 const initPosition = {
   width: 100,
   height: 100,
@@ -167,4 +144,3 @@ export function useInteractJS(
     disable: () => setEnable(false)
   }
 }
-```
