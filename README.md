@@ -45,6 +45,12 @@ export function usePrevious<T>(
 }
 ```
 
+#### 使い方
+
+``` .ts
+const preVal = usePrevious(val)
+```
+
 ### useWatch
 
 ```.ts
@@ -72,6 +78,18 @@ export function useWatch(
     return onDestroy
   }, [])
 }
+```
+
+#### 使い方
+
+useEffectと同じ
+
+```.ts
+
+useWatch(() => {
+    console.log('watchが発火')
+}, [counter])
+
 ```
 
 ### useInteractJS
@@ -166,5 +184,30 @@ export function useInteractJS(
     enable: () => setEnable(true),
     disable: () => setEnable(false)
   }
+}
+```
+
+#### 使い方
+
+動かしたいコンポーネントにstyleとrefを設定する
+
+```.ts
+const App: React.FC = () => {
+  const interact = useInteractJS()
+
+  return (
+    <div className="App">
+      <button onClick={() => interact.enable()}>有効化</button>
+      <button onClick={() => interact.disable()}>無効化</button>
+      <div
+        ref={interact.ref}
+        style={{
+          ...interact.style,
+          border: '2px solid #0489B1',
+          backgroundColor: '#A9D0F5'
+        }}
+      />
+    </div>
+  )
 }
 ```
