@@ -92,6 +92,63 @@ useWatch(() => {
 
 ```
 
+### useCreated
+
+Vue.jsのcreated相当の機能を提供する
+コンポーネントマウント時にDOMの更新が行われるよりも先に実行される
+
+```.ts
+const useCreatedOpt = {
+  /**
+   * コンポーネントが破棄されるときに一度だけ発火する関数
+   */
+  onDestroy: () => {},
+  /**
+   * 指定されたonCreated関数の実行をawaitするかどうか
+   */
+  isAwait: false
+}
+
+/**
+ * DOMがレンダリングされる前に一度だけ指定した関数を実行します
+ * @param onCreated コンポーネントがマウントする前に一度だけ発火する関数。
+ * @param onDestroy コンポーネントが破棄されるときに発火する関数
+ * @param isAwait 指定されたonCreated関数の実行をawaitするかどうか
+ */
+export async function useCreated(
+  onCreated: () => void,
+  opt: Partial<typeof useCreatedOpt> = {}
+) {
+  const _opt = {
+    ...useCreatedOpt,
+    ...opt
+  }
+  const [isCreated, setCreated] = useState(false)
+  if (!isCreated) {
+    setCreated(true)
+    if (_opt.isAwait) {
+      await onCreated()
+    } else {
+      onCreated()
+    }
+  }
+  useEffect(() => {
+    return _opt.onDestroy
+  }, [])
+}
+
+```
+
+### 使い方
+
+useEffectなどと同じ、第2引数の型は変わっているので注意
+
+```.ts
+useCreated(() => {
+  console.log('created関数だよ')
+})
+```
+
 ### useInteractJS
 
 InteractJSを使ってコンポーネントを動かすためのフック
