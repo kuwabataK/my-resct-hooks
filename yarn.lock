@@ -936,6 +936,121 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
+"@interactjs/actions@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/actions/-/actions-1.9.4.tgz#8249dd1771e0d9b3260cbb7e20579e4051ee85cd"
+  integrity sha512-mEru1f/t0bbbBsu6pGjqKSs/ZOmW6nJ5kVKNcgqeIRw1J09EUmQnjtI1C0kgyuoaCQiUjGIstpeyiDz2oOedDA==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/auto-scroll@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/auto-scroll/-/auto-scroll-1.9.4.tgz#6ec104f47b6397755a61d9c4e78eb7daf5a08826"
+  integrity sha512-3xIKw473slijgU/QDVYgTfZkIBox+Ke/zEvG3h2GZsZ+Y2LMyHs2AW4lHMB7X38GKg+oCcb+23aGnrWd8TiNCw==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/auto-start@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/auto-start/-/auto-start-1.9.4.tgz#a585e88fcc98761f928e3009f65e9f7a8a528664"
+  integrity sha512-zYnNRi+te7mQo8ssQUSAdX7tzJT7hSeWbyz8Sl7qlv7Ms7pIfckV+BWSxWtXiPfduZDYK8JFfS83diMbAs5qAA==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/core@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/core/-/core-1.9.4.tgz#480fcb1b167765fea3609087b1da81be4a6ebed3"
+  integrity sha512-+ln6A5gcWi8H49qUKrlZijzLt3qtRU74DY4GbiXQrZc5gxu8xKy3uriUBHupAU21g35tySrA1UZPLV4vOclzMg==
+
+"@interactjs/dev-tools@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/dev-tools/-/dev-tools-1.9.4.tgz#046b47171c67e0e9f28b5bd0b36befb3304f6910"
+  integrity sha512-UOFWiuqTkKnK5nN7gGgkZdh96Y2+PzP2SS+OGVaWPXu0xXM9g0UeqeEwCc+NAJFHYhcTqF6u74maQqop6wHWXg==
+  dependencies:
+    "@interactjs/utils" "1.9.4"
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/inertia@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/inertia/-/inertia-1.9.4.tgz#75d2a8989db0d784900c9b4143ff694a10195a8c"
+  integrity sha512-DtxEeJACySMjsNejELqXNgA7JoOR2SIOryb752PTcwYXaj01WvQOvtUnOtf3lbyos5JciDqU42tHQtAPDYbiJA==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/interact@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/interact/-/interact-1.9.4.tgz#02385a62402ff14e83f18aaa442a81a1a0544cfe"
+  integrity sha512-mil5jzYEEwM3YJ+Uz/fYZlXVgpljDCF0u2xcDfu5x21NRd3A1UW/ZaTQgsBLt21Wz4l7waHJ2eLANvQJ+XqWhw==
+
+"@interactjs/interactjs@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/interactjs/-/interactjs-1.9.4.tgz#2598b782142123acb381b43e6311ae351a98a537"
+  integrity sha512-9kIXh07lQ6qGJwvWqpixIKsjrozuemtMr33X2hSqBjdj1gHc76Dlanog2OmLhxp8JcynutMrQ6VLaxrel9fg6Q==
+  dependencies:
+    "@interactjs/actions" "1.9.4"
+    "@interactjs/auto-scroll" "1.9.4"
+    "@interactjs/auto-start" "1.9.4"
+    "@interactjs/dev-tools" "1.9.4"
+    "@interactjs/inertia" "1.9.4"
+    "@interactjs/interact" "1.9.4"
+    "@interactjs/modifiers" "1.9.4"
+    "@interactjs/offset" "1.9.4"
+    "@interactjs/pointer-events" "1.9.4"
+    "@interactjs/reflow" "1.9.4"
+    "@interactjs/types" "1.9.4"
+    "@interactjs/utils" "1.9.4"
+
+"@interactjs/modifiers@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/modifiers/-/modifiers-1.9.4.tgz#c8f30d1c197d9dfdcb2513af1633ed13790ec01b"
+  integrity sha512-AAz3vlcfB81n0euk1eUsrsqpF1T5O5aFIidO+qI+ArPZ/aOSa7nUB3qnH6JyjR27jV9UNL03cpkGFBXhuHfhbw==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/offset@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/offset/-/offset-1.9.4.tgz#c7aeee4e6837ed91df20148cfaa592d03da77e07"
+  integrity sha512-0FQCSFz4EzvW9oZbfCU85wl4wZLjie7bJ3ZRKdM+cAe4XQ5pNPWdrdld3z1omnQujIUW8kDFA3j2g/8agsBrXg==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/pointer-events@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/pointer-events/-/pointer-events-1.9.4.tgz#e89e607443af20d984a1db72cb2cbf9779bb6761"
+  integrity sha512-94fa18INZO/UUfyEydyyQPeTu9ISMIwX1VCMYzIha6yMQ+6n5yaAFLl0nP9qFbR8wTCBqGjrdEm4Db3IxVlCVg==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/reflow@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/reflow/-/reflow-1.9.4.tgz#c0d9f443e14f4457b8f84b950cdbb8011048c619"
+  integrity sha512-GC4S/zXxQ7zGs5Xa4hrKlGxUc41uuyV1eBuSx/GnzukmDoyyrdqXf0BwcMSeg4MZeva7p4gWdEsiNVaF2kPOSQ==
+  optionalDependencies:
+    "@interactjs/interact" "1.9.4"
+
+"@interactjs/types@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/types/-/types-1.9.4.tgz#b6bcb480258169b88dfcea24490629f7a7d4a744"
+  integrity sha512-+5do2EnrHcL4pm0FPDcb5u1/Oo0zyujmPeKSLtoDyHZvAmD4kak1WAm7f0lMIW3y4iwkKPa/xKKk1MaKL9rsFQ==
+  dependencies:
+    "@interactjs/actions" "1.9.4"
+    "@interactjs/auto-scroll" "1.9.4"
+    "@interactjs/auto-start" "1.9.4"
+    "@interactjs/core" "1.9.4"
+    "@interactjs/dev-tools" "1.9.4"
+    "@interactjs/inertia" "1.9.4"
+    "@interactjs/interact" "1.9.4"
+    "@interactjs/modifiers" "1.9.4"
+    "@interactjs/pointer-events" "1.9.4"
+    "@interactjs/reflow" "1.9.4"
+    "@interactjs/utils" "1.9.4"
+
+"@interactjs/utils@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@interactjs/utils/-/utils-1.9.4.tgz#e8051de35bb0fd136cc6ff833db054b428492ec0"
+  integrity sha512-HLcH6Ygg6mejamlzNkqT1w+h7+gvfz09yIKDVkqitXB4ScGRwDcxTZiVZSjvW/R5Onp9WJ6msoZB0JhPtaOylw==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -1275,6 +1390,18 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
 
+"@types/lodash.clonedeep@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.6.tgz#3b6c40a0affe0799a2ce823b440a6cf33571d32b"
+  integrity sha512-cE1jYr2dEg1wBImvXlNtp0xDoS79rfEdGozQVgliDZj1uERH4k+rmEMTudP9b4VQ8O6nRb5gPqft0QzEQGMQgA==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.149"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
+  integrity sha512-ijGqzZt/b7BfzcK9vTrS6MFljQRPn5BFWOx8oE0GYxribu6uV+aA9zZuXI1zc/etK9E8nrgdoF2+LgUw7+9tJQ==
+
 "@types/node@12.11.7":
   version "12.11.7"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.7.tgz#57682a9771a3f7b09c2497f28129a0462966524a"
@@ -1290,17 +1417,25 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@types/react-dom@16.9.3":
-  version "16.9.3"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.3.tgz#4006ff0e13958af91313869077c04cb20d9b9d04"
-  integrity sha512-FUuZKXPr9qlzUT9lhuzrZgLjH63TvNn28Ch3MvKG4B+F52zQtO8DtE0Opbncy3xaucNZM2WIPfuNTgkbKx5Brg==
+"@types/react-dom@^16.9.3":
+  version "16.9.5"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.5.tgz#5de610b04a35d07ffd8f44edad93a71032d9aaa7"
+  integrity sha512-BX6RQ8s9D+2/gDhxrj8OW+YD4R+8hj7FEM/OJHGNR0KipE1h1mSsf39YeyC81qafkq+N3rU3h3RFbLSwE5VqUg==
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@16.9.11":
+"@types/react@*":
   version "16.9.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.11.tgz#70e0b7ad79058a7842f25ccf2999807076ada120"
   integrity sha512-UBT4GZ3PokTXSWmdgC/GeCGEJXE5ofWyibCcecRLUVN2ZBpXQGVgQGtG2foS7CrTKFKlQVVswLvf7Js6XA/CVQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.9.11":
+  version "16.9.23"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.23.tgz#1a66c6d468ba11a8943ad958a8cb3e737568271c"
+  integrity sha512-SsGVT4E7L2wLN3tPYLiF20hmZTPGuzaayVunfgXzUn1x4uHVsKH6QDJQ/TdpHqwsTLd4CwrmQ2vOgxN7gE24gw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -1555,9 +1690,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
@@ -4864,6 +4999,14 @@ inquirer@^6.4.1:
     strip-ansi "^5.1.0"
     through "^2.3.6"
 
+interactjs@^1.6.3:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/interactjs/-/interactjs-1.9.4.tgz#fba80cd9060dba289530457daaf3c9e27e9e51e9"
+  integrity sha512-61IDdhxwhkrJqhl/CscFNbf2EyPzhnCIokxvEBpUomEJm4XrTy/VbWq6n/DhcqG1hpSiefU6XJwC+RdMLZpr1w==
+  dependencies:
+    "@interactjs/interactjs" "1.9.4"
+    "@interactjs/types" "1.9.4"
+
 internal-ip@^4.2.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/internal-ip/-/internal-ip-4.3.0.tgz#845452baad9d2ca3b69c635a137acb9a0dad0907"
@@ -5944,6 +6087,11 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -8039,15 +8187,15 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.11.0:
-  version "16.11.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.11.0.tgz#7e7c4a5a85a569d565c2462f5d345da2dd849af5"
-  integrity sha512-nrRyIUE1e7j8PaXSPtyRKtz+2y9ubW/ghNgqKFHHAHaeP0fpF5uXR+sq8IMRHC+ZUxw7W9NyCDTBtwWxvkb0iA==
+react-dom@^16.11.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
+  integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.17.0"
+    scheduler "^0.19.0"
 
 react-error-overlay@^6.0.3:
   version "6.0.3"
@@ -8120,10 +8268,10 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.11.0:
-  version "16.11.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.11.0.tgz#d294545fe62299ccee83363599bf904e4a07fdbb"
-  integrity sha512-M5Y8yITaLmU0ynd0r1Yvfq98Rmll6q8AxaEe88c8e7LxO8fZ2cNgmFt0aGAS9wzf1Ao32NKXtCl+/tVVtkxq6g==
+react@^16.11.0:
+  version "16.13.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
+  integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -8573,10 +8721,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
-  integrity sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==
+scheduler@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.0.tgz#a715d56302de403df742f4a9be11975b32f5698d"
+  integrity sha512-xowbVaTPe9r7y7RUejcK73/j8tt2jfiyTednOvHbA8JoClvMYCp+r8QegLwK/n8zWQAtZb1fFnER4XLBZXrCxA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
